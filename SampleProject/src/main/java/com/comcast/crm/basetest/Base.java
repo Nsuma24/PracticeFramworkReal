@@ -44,7 +44,7 @@ public class Base {
 		
 	}
 	
-	/**@BeforeClass(groups = {"smokeTest", "regressionTest"})
+	@BeforeClass(groups = {"smokeTest", "regressionTest"})
 	public void configBC() throws IOException {
 		System.out.println("===Launch the browser===");	
 		
@@ -65,9 +65,9 @@ public class Base {
 		sdriver = driver;
 		UtilityClassObject.setdriver(driver);
 		
-	}**/
+	}
 	
-	@Parameters("BROWSER")
+	/**@Parameters("BROWSER")
 	@BeforeClass(groups = {"smokeTest", "regressionTest"})
 	public void configBC( String BROWSER) throws IOException {
 		System.out.println("===Launch the browser===");	
@@ -88,7 +88,7 @@ public class Base {
 		sdriver = driver;
 		UtilityClassObject.setdriver(driver);
 		
-	}
+	}**/
 	
 	@BeforeMethod(groups = {"smokeTest", "regressionTest"})
 	public void configBM() throws IOException {
