@@ -7,7 +7,6 @@ import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.comcast.crm.generic.webdriverutility.JavaUtility;
 import com.comcast.crm.generic.webdriverutility.WebDriverUtility;
 
 public class CreatingNewContactPage {
@@ -107,7 +106,6 @@ public class CreatingNewContactPage {
  		// switch to parent window
  		wLib.switchToTabOnURL(driver, "Contacts&action");
  		
-// 		buttonEle.click();
     	saveBtn.click();
     }
    

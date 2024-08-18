@@ -6,9 +6,7 @@
       <class name="com.comcast.crm.contacttest.CreateContactTest">
         <methods>
           <include name="configAM"/>
-          <include name="createContactTest"/>
           <include name="configBM"/>
-          <include name="createContactWithSupportDate"/>
           <include name="configAS"/>
           <include name="configAC"/>
           <include name="createContactWithOrg"/>
