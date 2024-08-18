@@ -29,9 +29,8 @@ public class CreateContactTest extends Base {
 
 	@Test(groups = "smokeTest")
 	public void createContactTest() throws EncryptedDocumentException, IOException {
-		
-		UtilityClassObject.getTest().log(Status.INFO, "read data from excel");
 
+		UtilityClassObject.getTest().log(Status.INFO, "read data from excel");
 
 		/* read testscript data from excel */
 		String lastName = eLib.getDataFromExcel("contact", 1, 2) + jLib.getRandomNumber();
